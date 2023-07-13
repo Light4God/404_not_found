@@ -1,0 +1,59 @@
+.error-404 {
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    flex-wrap: wrap;
+  }
+
+  .img-src {
+    flex: 40%;
+    /* margin-right: 50px; */
+
+    padding: 0 50px 0 0;
+  }
+
+  .bad-news {
+    flex: 40%;
+    /* margin-left: 50px; */
+    padding: 35px 0 0 35px;
+  }
+
+  .button {
+    background-color: #333333;
+    border: none;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 40px;
+    padding: 20px 38px;
+    color: #ffffff;
+    margin-top: 45px;
+  }
+
+  .the-page {
+    font-family: "Space Mono";
+    font-size: 18px;
+    line-height: 27px;
+    color: #4f4f4f;
+    letter-spacing: -0.035em;
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .img-src {
+      flex: 100%;
+      padding: 0 0 0 0;
+    }
+
+    .bad-news {
+      flex: 100%;
+      padding: 0 0 0 0;
+    }
+    .error-404 {
+      padding: 0 0 0 0;
+    }
+    .the-page {
+      width: 100%;
+    }
+  }
